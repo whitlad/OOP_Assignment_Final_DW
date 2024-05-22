@@ -6,13 +6,16 @@ import java.time.LocalDate;
         private String name; //name of customer
         private String address; //address of customer
         private String postCode; //postcode of customer
+
+        private int phoneNumber; //phonenumber of customer
         private LocalDate dateOfBirth; //date of birth of customer
 
-        public Customer(String aName, String aAddress, String aPostcode, LocalDate aDate, int aNumber) {
+        public Customer(String aName, String aAddress, String aPostcode,  int aPhoneNumber, LocalDate aDate, int aNumber) {
             this.name = aName;
             this.address = aAddress;
             this.postCode = aPostcode;
             this.dateOfBirth = aDate;
+            this.phoneNumber = aPhoneNumber;
             this.number = NEXT_CUSTOMER_NUMBER_NUMBER;
             NEXT_CUSTOMER_NUMBER++;
         }
@@ -27,6 +30,10 @@ import java.time.LocalDate;
 
         public String getPostCode() {
             return postCode;
+        }
+
+        public int getPhoneNumber() {
+            return phoneNumber;
         }
 
         public LocalDate getDateOfBirth() {
@@ -49,9 +56,13 @@ import java.time.LocalDate;
             this.postCode = postCode;
         }
 
+        public void setPhoneNumber(String postCode) {
+            this.phoneNumber = phoneNumber;
+        }
+
         public void displayDetails() {
             System.out.println(this.getNumber() + "\t" + this.getName() + "\t" + this.getAddress() + "\t" + this.getPostCode()
-                    + "\t" + this.getDateOfBirth().toString());
+                    + "\t" + "\t" + this.getPhoneNumber() + "\t" + this.getDateOfBirth().toString());
         }
 
 
@@ -84,5 +95,5 @@ import java.time.LocalDate;
 
     }
 
-
 }
+
