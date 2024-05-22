@@ -16,7 +16,7 @@ import java.time.LocalDate;
             this.postCode = aPostcode;
             this.dateOfBirth = aDate;
             this.phoneNumber = aPhoneNumber;
-            this.number = NEXT_CUSTOMER_NUMBER_NUMBER;
+            this.number = NEXT_CUSTOMER_NUMBER;
             NEXT_CUSTOMER_NUMBER++;
         }
 
