@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2137e7c8-8c90-467f-afbe-6b6749daa6be" name="Changes" comment="This is the final created customer class&#10;added phonenumber to customerclass">
-      <change afterPath="$PROJECT_DIR$/src/Bank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Customer.java" afterDir="false" />
+    <list default="true" id="2137e7c8-8c90-467f-afbe-6b6749daa6be" name="Changes" comment="This is the final created customer class&#10;added phonenumber to &#10;customerclass&#10;account class created">
+      <change beforePath="$PROJECT_DIR$/src/CurrentAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CurrentAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HighInterestSavings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HighInterestSavings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SavingsAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SavingsAccount.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +68,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716375361060</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="This is the final created customer class&#10;added phonenumber to &#10;customerclass&#10;account class created">
+      <option name="closed" value="true" />
+      <created>1716377728045</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716377728045</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -86,7 +93,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="This is the final created customer class" />
     <MESSAGE value="This is the final created customer class&#10;added phonenumber to customerclass" />
-    <option name="LAST_COMMIT_MESSAGE" value="This is the final created customer class&#10;added phonenumber to customerclass" />
+    <MESSAGE value="This is the final created customer class&#10;added phonenumber to &#10;customerclass&#10;account class created" />
+    <option name="LAST_COMMIT_MESSAGE" value="This is the final created customer class&#10;added phonenumber to &#10;customerclass&#10;account class created" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
